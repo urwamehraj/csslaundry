@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    margin:0px;
+    border:border-box;
+}
+a{
+    text-decoration:none;
+    border:2px solid blue;
+    border-radius:14px;
+    color:white;
+    background-color:black;
+    margin:20px;
+}
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rebeccapurple ;
+    height:15vh;
+    width:100%;
+    position:sticky;
+    top:0;
+}
+.logo{
+    height:13vh;
+    width:13vh;
+    background-image:url("image.png");
+   background-size:cover;
+   margin:10px 0px 0px 0px;
+}
+navbar{
+    display:flex;
+    justify-content:center;
+    font-size:large;
+    margin:20px;
+}
+.user{
+    background-image:url("https://tse4.mm.bing.net/th/id/OIP.l9ZSLXztloCwOLd5vLIrLwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size:cover;
+    height:8vh;
+    width:8vh;
+    border:2px solid black;
+    border-radius:14px;
+}
+.hero{
+    display:flex;
+    height:100vh;
+    width:100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+h1{
+    color:black;
+    padding:50px;
+    font-size:3em;
+    
+} 
+h2{
+    color:brown;
+    font-size:2em;
+} 
+.right{
+    background-image:url("image copy.png");
+    background-size:cover;
+    height:100vh;
+    width:50vw;
+
+}  
+.left{
+    margin:50px;
+    padding:50px;
+    height :fit-content;
+    width:50vw;
+}
+.pleft{
+    color:blueviolet;
+    font-size:2em;
+    margin:10%;
+}
+button{
+    background-color:greenyellow;
+    color:red;
+    height:10vh;
+    width:20vw;
+    border: 2px black;
+    border-radius: 14px;
+}
